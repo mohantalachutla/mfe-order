@@ -1,4 +1,4 @@
-# mfe-starter-react
+# mfe-order-react
 
 The is a react mfe starter app
 

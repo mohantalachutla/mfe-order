@@ -1,16 +1,16 @@
 {
-  "name": "@mohantalachutla/mfe_starter",
+  "name": "@mohantalachutla/mfe_order",
   "version": "1.0.0",
   "license": "MIT",
   "author": {
     "name": "Mohan Talachutla"
   },
   "description": "A react mfe starter app",
-  "homepage": "https://github.com/mohantalachutla/mfe-starter",
+  "homepage": "https://github.com/mohantalachutla/mfe-order",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/mohantalachutla/mfe-starter.git"
+    "url": "https://github.com/mohantalachutla/mfe-order.git"
   },
   "engines": {
     "node": ">=16.0.0"

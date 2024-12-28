@@ -1,7 +1,7 @@
 const Sample = () => {
   return (
     <div>
-      <h1>Welcome to mfe-starter's Sample Page</h1>
+      <h1>Welcome to mfe-order's Sample Page</h1>
     </div>
   );
 };
