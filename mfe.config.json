@@ -1,6 +1,6 @@
 {
   "name": "mfe_order",
-  "url": "http://localhost:9001",
+  "url": "http://localhost:9002",
   "modules": ["./Home", "./Sample"],
   "events": {
     "mfe": {
