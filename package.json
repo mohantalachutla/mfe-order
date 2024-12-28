@@ -5,7 +5,7 @@
   "author": {
     "name": "Mohan Talachutla"
   },
-  "description": "A react mfe starter app",
+  "description": "A react mfe order app to display orders",
   "homepage": "https://github.com/mohantalachutla/mfe-order",
   "private": true,
   "repository": {

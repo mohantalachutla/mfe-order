@@ -1,6 +1,6 @@
 # mfe-order-react
 
-The is a react mfe starter app
+The is a react mfe order app
 
 
 ## Installation
