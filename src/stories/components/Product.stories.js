@@ -1,10 +1,10 @@
 import { fn } from '@storybook/test';
-import Product from '../../components/Product';
+import Order from '../../components/Order';
 import { appleWatch } from '../assets';
 
 export default {
   title: 'Components/Product',
-  component: Product,
+  component: Order,
   parameters: {
     layout: 'centered',
   },

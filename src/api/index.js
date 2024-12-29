@@ -7,3 +7,7 @@ export const hello = () => {
 export const getOrders = ({ status }) => {
   return httpClient.post('/api/order/browse', { status });
 };
+
+export const updateStatus = ({ _id, status }) => {
+  return httpClient.put('/api/order/changeStatus', { _id, status });
+};

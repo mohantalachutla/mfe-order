@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Container from '../../components/base/Container';
 import Row from '../../components/base/Row';
 import Col from '../../components/base/Col';
-import { Product } from '../../components/Product';
+import { Order } from '../../components/Order';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { withStoreWrapper } from 'components/common/StoreWrapper';
@@ -24,11 +24,7 @@ const OrderPage = ({ orders = [] } = props) => {
         </div>
       )}
       {orderList.map((order) => (
-        <Row key={order.id}>
-          <Col size="md" offset="12">
-            <Product {...order} />
-          </Col>
-        </Row>
+        <Order key={order._id} {...order} dispatch={dispatch} />
       ))}
     </Container>
   );
