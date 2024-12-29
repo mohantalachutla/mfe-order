@@ -10,7 +10,7 @@ import { ALERT_TYPES } from '../constants';
 const helloSagaHandler = function* ({ payload }) {
   yield put(loadingOn());
   try {
-    const { data } = yield call(hello, payload);
+    const data = yield call(hello, payload);
     yield put(helloSuccess(data));
   } catch (error) {
     yield put(helloFailure());
